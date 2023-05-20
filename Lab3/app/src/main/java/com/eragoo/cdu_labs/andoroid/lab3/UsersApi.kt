@@ -5,6 +5,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface UsersApi {
-    @GET("Eragoo/cdu-labs/master/adndroid/users.json")
+    @GET("MrMortiger/MobDev/main/users.json")
     suspend fun getAll() : Response<List<UserDto>>
 }
